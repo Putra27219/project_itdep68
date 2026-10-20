@@ -1,0 +1,146 @@
+{
+  "teachers": [
+    {
+      "teacher_id": "T01",
+      "teacher_name": "อ.สมศักดิ์ รักการสอน",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 16,
+      "unavailable_slots": [
+        {
+          "day": 0,
+          "period": 0
+        }
+      ]
+    },
+    {
+      "teacher_id": "T02",
+      "teacher_name": "อ.กัญญา โค้ดดิ้ง",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 16,
+      "unavailable_slots": [
+        {
+          "day": 4,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "teacher_id": "T03",
+      "teacher_name": "อ.วิภา ภาษาพาที",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 14,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T04",
+      "teacher_name": "อ.ธีรพล คณิตคิดเร็ว",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 14,
+      "unavailable_slots": [
+        {
+          "day": 2,
+          "period": 4
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "LAB-101",
+      "room_name": "ห้องปฏิบัติการคอมพิวเตอร์ 1",
+      "room_type": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "capacity": 35,
+      "building": "อาคาร 1 ชั้น 2"
+    },
+    {
+      "room_id": "REC-201",
+      "room_name": "ห้องเรียนทฤษฎี 201",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 40,
+      "building": "อาคาร 2 ชั้น 2"
+    },
+    {
+      "room_id": "REC-202",
+      "room_name": "ห้องเรียนทฤษฎี 202",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 35,
+      "building": "อาคาร 2 ชั้น 2"
+    }
+  ],
+  "classes": [
+    {
+      "class_id": "IT-101",
+      "class_name": "ปวช.1 เทคโนโลยีสารสนเทศ 1",
+      "student_count": 28,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "class_id": "IT-201",
+      "class_name": "ปวช.2 เทคโนโลยีสารสนเทศ 1",
+      "student_count": 25,
+      "department": "เทคโนโลยีสารสนเทศ"
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": "20001-1001",
+      "subject_name": "ภาษาไทยพื้นฐาน",
+      "teacher_id": "T03",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "20001-2001",
+      "subject_name": "คณิตศาสตร์พื้นฐานอาชีพ",
+      "teacher_id": "T04",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "20204-2001",
+      "subject_name": "การเขียนโปรแกรมคอมพิวเตอร์",
+      "teacher_id": "T01",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "20001-1002",
+      "subject_name": "ภาษาอังกฤษเพื่อการสื่อสาร",
+      "teacher_id": "T03",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "20204-2004",
+      "subject_name": "ระบบฐานข้อมูลเชิงสัมพันธ์",
+      "teacher_id": "T02",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "20001-2002",
+      "subject_name": "สถิติและการประยุกต์",
+      "teacher_id": "T04",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    }
+  ]
+}

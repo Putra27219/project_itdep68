@@ -1,0 +1,563 @@
+{
+  "teachers": [
+    {
+      "teacher_id": "T01",
+      "teacher_name": "ดร.สมศักดิ์ รักการสอน",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 18,
+      "unavailable_slots": [
+        {
+          "day": 0,
+          "period": 0
+        },
+        {
+          "day": 0,
+          "period": 1
+        }
+      ]
+    },
+    {
+      "teacher_id": "T02",
+      "teacher_name": "อ.กัญญา โค้ดดิ้ง",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 18,
+      "unavailable_slots": [
+        {
+          "day": 4,
+          "period": 6
+        },
+        {
+          "day": 4,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "teacher_id": "T03",
+      "teacher_name": "อ.วิภา ภาษาพาที",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 16,
+      "unavailable_slots": [
+        {
+          "day": 2,
+          "period": 0
+        }
+      ]
+    },
+    {
+      "teacher_id": "T04",
+      "teacher_name": "อ.ธีรพล คณิตคิดเร็ว",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 16,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T05",
+      "teacher_name": "อ.ประวิทย์ เน็ตเวิร์ก",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 18,
+      "unavailable_slots": [
+        {
+          "day": 1,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "teacher_id": "T06",
+      "teacher_name": "อ.ดาริน การบัญชี",
+      "department": "การบัญชี",
+      "max_hours_per_week": 18,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T07",
+      "teacher_name": "อ.ชลิต ภาษีอากร",
+      "department": "การบัญชี",
+      "max_hours_per_week": 16,
+      "unavailable_slots": [
+        {
+          "day": 3,
+          "period": 5
+        }
+      ]
+    },
+    {
+      "teacher_id": "T08",
+      "teacher_name": "อ.จินตนา การตลาดดิจิทัล",
+      "department": "การตลาด",
+      "max_hours_per_week": 16,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T09",
+      "teacher_name": "อ.ศิริพร วิทยาศาสตร์",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 16,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T10",
+      "teacher_name": "อ.บรรเจิด ช่างยนต์",
+      "department": "ช่างยนต์",
+      "max_hours_per_week": 20,
+      "unavailable_slots": [
+        {
+          "day": 0,
+          "period": 4
+        }
+      ]
+    },
+    {
+      "teacher_id": "T11",
+      "teacher_name": "อ.สุเทพ ไฟฟ้ากำลัง",
+      "department": "ช่างไฟฟ้า",
+      "max_hours_per_week": 18,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T12",
+      "teacher_name": "อ.อัญชลี ศิลปวัฒนธรรม",
+      "department": "สามัญสัมพันธ์",
+      "max_hours_per_week": 14,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T13",
+      "teacher_name": "อ.ณัฐพล ปัญญาประดิษฐ์",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 18,
+      "unavailable_slots": [
+        {
+          "day": 2,
+          "period": 6
+        }
+      ]
+    },
+    {
+      "teacher_id": "T14",
+      "teacher_name": "อ.กมลวรรณ การเงินธุรกิจ",
+      "department": "การบัญชี",
+      "max_hours_per_week": 16,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T15",
+      "teacher_name": "อ.พงศ์ธร เขียนแบบวิศวกรรม",
+      "department": "ช่างยนต์",
+      "max_hours_per_week": 18,
+      "unavailable_slots": []
+    },
+    {
+      "teacher_id": "T16",
+      "teacher_name": "อ.นภาพร กราฟิกดีไซน์",
+      "department": "เทคโนโลยีสารสนเทศ",
+      "max_hours_per_week": 16,
+      "unavailable_slots": []
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "LAB-101",
+      "room_name": "ห้องปฏิบัติการคอมพิวเตอร์ 1",
+      "room_type": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคารวิทยบริการ"
+    },
+    {
+      "room_id": "LAB-102",
+      "room_name": "ห้องปฏิบัติการคอมพิวเตอร์ 2",
+      "room_type": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "capacity": 40,
+      "building": "อาคารวิทยบริการ"
+    },
+    {
+      "room_id": "LAB-103",
+      "room_name": "ห้องปฏิบัติการปัญญาประดิษฐ์",
+      "room_type": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "capacity": 35,
+      "building": "อาคารวิทยบริการ"
+    },
+    {
+      "room_id": "REC-201",
+      "room_name": "ห้องเรียนทฤษฎี 201",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 45,
+      "building": "อาคารเฉลิมพระเกียรติ"
+    },
+    {
+      "room_id": "REC-202",
+      "room_name": "ห้องเรียนทฤษฎี 202",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 45,
+      "building": "อาคารเฉลิมพระเกียรติ"
+    },
+    {
+      "room_id": "REC-203",
+      "room_name": "ห้องเรียนทฤษฎี 203",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 40,
+      "building": "อาคารเฉลิมพระเกียรติ"
+    },
+    {
+      "room_id": "REC-204",
+      "room_name": "ห้องเรียนทฤษฎี 204",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 40,
+      "building": "อาคารเฉลิมพระเกียรติ"
+    },
+    {
+      "room_id": "WK-AUTO",
+      "room_name": "โรงฝึกงานช่างยนต์ 1",
+      "room_type": "โรงฝึกงานช่าง",
+      "capacity": 35,
+      "building": "อาคารปฏิบัติการช่าง"
+    },
+    {
+      "room_id": "WK-ELEC",
+      "room_name": "โรงฝึกงานช่างไฟฟ้า",
+      "room_type": "โรงฝึกงานช่าง",
+      "capacity": 35,
+      "building": "อาคารปฏิบัติการช่าง"
+    },
+    {
+      "room_id": "ACT-301",
+      "room_name": "ห้องปฏิบัติการบัญชีจำลอง",
+      "room_type": "ห้องเรียนทฤษฎี",
+      "capacity": 40,
+      "building": "อาคารพาณิชยการ"
+    }
+  ],
+  "classes": [
+    {
+      "class_id": "IT-101",
+      "class_name": "ปวช.1 เทคโนโลยีสารสนเทศ 1",
+      "student_count": 30,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "class_id": "IT-201",
+      "class_name": "ปวช.2 เทคโนโลยีสารสนเทศ 1",
+      "student_count": 28,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "class_id": "IT-301",
+      "class_name": "ปวช.3 เทคโนโลยีสารสนเทศ 1",
+      "student_count": 26,
+      "department": "เทคโนโลยีสารสนเทศ"
+    },
+    {
+      "class_id": "ACC-101",
+      "class_name": "ปวช.1 การบัญชี 1",
+      "student_count": 32,
+      "department": "การบัญชี"
+    },
+    {
+      "class_id": "ACC-201",
+      "class_name": "ปวช.2 การบัญชี 1",
+      "student_count": 29,
+      "department": "การบัญชี"
+    },
+    {
+      "class_id": "MKT-101",
+      "class_name": "ปวช.1 การตลาด 1",
+      "student_count": 27,
+      "department": "การตลาด"
+    },
+    {
+      "class_id": "AUTO-101",
+      "class_name": "ปวช.1 ช่างยนต์ 1",
+      "student_count": 30,
+      "department": "ช่างยนต์"
+    },
+    {
+      "class_id": "ELEC-101",
+      "class_name": "ปวช.1 ช่างไฟฟ้ากำลัง 1",
+      "student_count": 28,
+      "department": "ช่างไฟฟ้า"
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": "SUB-IT1-01",
+      "subject_name": "ภาษาไทยพื้นฐาน",
+      "teacher_id": "T03",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT1-02",
+      "subject_name": "คณิตศาสตร์ประยุกต์ 1",
+      "teacher_id": "T04",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT1-03",
+      "subject_name": "การเขียนโปรแกรมเบื้องต้น",
+      "teacher_id": "T01",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT1-04",
+      "subject_name": "วิทยาศาสตร์เพื่องานอาชีพ",
+      "teacher_id": "T09",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT1-05",
+      "subject_name": "กราฟิกดีไซน์พื้นฐาน",
+      "teacher_id": "T16",
+      "class_id": "IT-101",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT2-01",
+      "subject_name": "ระบบฐานข้อมูลเชิงสัมพันธ์",
+      "teacher_id": "T02",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT2-02",
+      "subject_name": "ระบบเครือข่ายเบื้องต้น",
+      "teacher_id": "T05",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT2-03",
+      "subject_name": "ภาษาอังกฤษธุรกิจ",
+      "teacher_id": "T03",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT2-04",
+      "subject_name": "สถิติประยุกต์ธุรกิจ",
+      "teacher_id": "T04",
+      "class_id": "IT-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT3-01",
+      "subject_name": "ปัญญาประดิษฐ์ประยุกต์",
+      "teacher_id": "T13",
+      "class_id": "IT-301",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT3-02",
+      "subject_name": "การพัฒนาเว็บแอปพลิเคชัน",
+      "teacher_id": "T02",
+      "class_id": "IT-301",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-IT3-03",
+      "subject_name": "โครงการวิชาชีพ IT",
+      "teacher_id": "T01",
+      "class_id": "IT-301",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 4,
+      "block_size": 2,
+      "credit": 3
+    },
+    {
+      "subject_id": "SUB-AC1-01",
+      "subject_name": "หลักการบัญชีเบื้องต้น 1",
+      "teacher_id": "T06",
+      "class_id": "ACC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC1-02",
+      "subject_name": "กฎหมายพาณิชย์",
+      "teacher_id": "T07",
+      "class_id": "ACC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC1-03",
+      "subject_name": "คณิตศาสตร์ประยุกต์ 1",
+      "teacher_id": "T04",
+      "class_id": "ACC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC1-04",
+      "subject_name": "ภาษาไทยพื้นฐาน",
+      "teacher_id": "T03",
+      "class_id": "ACC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC2-01",
+      "subject_name": "การบัญชีชั้นกลาง 1",
+      "teacher_id": "T06",
+      "class_id": "ACC-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC2-02",
+      "subject_name": "ภาษีอากร 1",
+      "teacher_id": "T07",
+      "class_id": "ACC-201",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AC2-03",
+      "subject_name": "โปรแกรมสำเร็จรูปเพื่องานบัญชี",
+      "teacher_id": "T14",
+      "class_id": "ACC-201",
+      "room_type_required": "ห้องปฏิบัติการคอมพิวเตอร์",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-MK1-01",
+      "subject_name": "การตลาดเบื้องต้น",
+      "teacher_id": "T08",
+      "class_id": "MKT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 3,
+      "block_size": 3,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-MK1-02",
+      "subject_name": "การขายและการเจรจา",
+      "teacher_id": "T08",
+      "class_id": "MKT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-MK1-03",
+      "subject_name": "ภาษาอังกฤษธุรกิจ",
+      "teacher_id": "T03",
+      "class_id": "MKT-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AU1-01",
+      "subject_name": "งานเครื่องยนต์แก๊สโซลีน",
+      "teacher_id": "T10",
+      "class_id": "AUTO-101",
+      "room_type_required": "โรงฝึกงานช่าง",
+      "periods_per_week": 4,
+      "block_size": 4,
+      "credit": 3
+    },
+    {
+      "subject_id": "SUB-AU1-02",
+      "subject_name": "เขียนแบบเทคนิคเบื้องต้น",
+      "teacher_id": "T15",
+      "class_id": "AUTO-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-AU1-03",
+      "subject_name": "วิทยาศาสตร์เพื่องานอาชีพ",
+      "teacher_id": "T09",
+      "class_id": "AUTO-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-EL1-01",
+      "subject_name": "งานวงจรไฟฟ้ากระแสตรง",
+      "teacher_id": "T11",
+      "class_id": "ELEC-101",
+      "room_type_required": "โรงฝึกงานช่าง",
+      "periods_per_week": 4,
+      "block_size": 4,
+      "credit": 3
+    },
+    {
+      "subject_id": "SUB-EL1-02",
+      "subject_name": "เครื่องมือวัดและทดสอบไฟฟ้า",
+      "teacher_id": "T11",
+      "class_id": "ELEC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    },
+    {
+      "subject_id": "SUB-EL1-03",
+      "subject_name": "คณิตศาสตร์ประยุกต์ 1",
+      "teacher_id": "T04",
+      "class_id": "ELEC-101",
+      "room_type_required": "ห้องเรียนทฤษฎี",
+      "periods_per_week": 2,
+      "block_size": 2,
+      "credit": 2
+    }
+  ]
+}
